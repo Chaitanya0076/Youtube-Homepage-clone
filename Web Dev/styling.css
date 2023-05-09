@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.flex-row{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items:center;
+      /* padding-left: 2px; */
+}
+.flex-str{
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+      align-items:center;
+      padding-left: 2px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#top-nav-bar{
+    /* display: none; */
+    width: 99vw;
+    position: fixed;
+    background-color: #212121;
+    justify-content: space-between;
+    color: white;
+    height: 10vh;
+}
+.menu-icon{
+    padding: 1rem;
+    width: 5vw;
+    cursor: pointer;
+}
+.yt-name{
+    color: white;
+    font: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium';
+    margin: 0.4rem;
+}
+input{
+    outline: none;
+    padding-left: 0.5rem;
+    width: 25rem;
+    height: 6vh;
+    background-color: #0f0f0f;
+    border: 1px solid hsl(0, 0, 18.82%);
+    color: white;
+    border-radius: 1rem;
+}
+input:focus{
+    transition: 0.5s all;
+    border: 1px solid #065fd4;
+}
+.search-icon{
+    background-color: hsl(0, 0, 18.82%);
+    width: 2.5rem;
+    height: 6vh;
+    cursor: pointer;
+    /* border-radius: rem; */
+}
+.mic{
+    width: 1.5rem;
+    height: 6vh;
+    background-color: #0f0f0f;
+    cursor: pointer;
+}
+.right i{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.left-nav-bar{
+    top: 10vh;
+    position: fixed;
+    color: white;
+    height: 90vh;
+    width: 5vw;
+    font-size: 0.8rem;
+    background-color: #212121;
+}
+.left-nav-bar i{
+    margin: 1rem;
+}
+.left-nav-bar div{
+    font-size: 0.8rem;
+}
+.menu-item{
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.menu-item:hover{
+    transition: all 0.5s;
+    background-color: rgb(134, 13, 13);
+}
+#container{
+    background-color: #181818;
+    padding: 1rem;
+    width: 93.9vw;
+    position: relative;
+    z-index: -1;
+    top: 10vh;
+    left: 5vw;
+}
+.container-box{
+    justify-content: initial;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 0.5rem;
+    flex-grow: 1;
+    height: 43vh; /*55*/
+    width: 20vw; /*20*/
+    justify-content: initial;
+    border-radius: 5px;
+}
+.box img{
+    width:20vw; /*20*/
+    height: 28vh; /*38*/
+    border-radius: 15px;
+}
+.content{
+    color: white;
+    font-size: 15px;
+    
+}
+.content-right{
+    padding: 0.2rem 0.3rem;
+    width: 15vw; /*15*/
+}
+.content-right div{
+    margin: 0.2rem;
+}
+.content-head{
+    font-size: 1rem;
+}
+.info{
+    color: #717177;
+}
